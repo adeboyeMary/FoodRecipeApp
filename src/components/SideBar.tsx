@@ -1,10 +1,11 @@
 import { useState } from "react";
 
 import SideBarForm from "./SideBarForm";
-
+import { SidebarProps } from "../store/types";
 import {Menu, } from "lucide-react";
 
-const SideBar = () => {
+
+const SideBar = ( {onCategoryClick, onReset}: SidebarProps) => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
     const clickHandler = () => {
@@ -19,19 +20,19 @@ const SideBar = () => {
                 <p className="p-4 text-2xl font-bold">Recipes:</p>
                 <hr className="border-solid border-[1px] border-[#AEAEAE]" />
                 
-                <SideBarForm />
+                <SideBarForm onCategoryClick={onCategoryClick} onReset={onReset} />
             </div>
             
             <button onClick={clickHandler} className="pl-2 block md:block lg:hidden">
                 <Menu />
             </button>
             
-            <div className={`md:block lg:hidden fixed top-[12rem] left-0 bg-[#D9D9D9] w-[60%] h-[70vh] z-50 
+            <div className={`md:block lg:hidden fixed top-0 left-0 bg-[#D9D9D9] w-[60%] h-[70vh] z-50 
                 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform`}>
                     <button onClick={clickHandler} className='text-5xl text-red-600 float-end pr-3 pb-3'>
                         &times;
                     </button>
-                <SideBarForm />
+                <SideBarForm onCategoryClick={onCategoryClick} onReset={onReset} />
             </div>
 
             <div onClick={clickHandler} className={`fixed top-0 left-0 w-full h-full bg-[black] 

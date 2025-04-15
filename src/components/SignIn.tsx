@@ -1,69 +1,57 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
+import Input from "../components/Input";
+import Button from "../components/Button";
+import { useDispatch, useSelector } from "react-redux";
+import { AppDispatch, RootState } from "../store";
+import { SignInThunk } from "../store/authThunk";
+import { setUser } from "../store/authSlice";
+
 
 const SignIn = () => {
-    const [enteredEmail, setEnteredEmail] = useState<string>('');
-    const [enteredPassword, setEnteredPassword] = useState<string>('');
-    const [isValid, setIsValid] = useState<boolean>(false);
-    const [isDataTouched, setIsDataTouched] = useState<boolean>(false);
+    const dispatch = useDispatch<AppDispatch>();
+    const {user, loading, error} = useSelector((state: RootState) => state.auth);
 
-    const EmailChangeHandler = (event: React.ChangeEvent<HTMLInputElement> ) => {
-        setEnteredEmail(event.target.value);
-    };
-    const PasswordChangeHandler = (event: React.ChangeEvent<HTMLInputElement> ) => {
-        setEnteredPassword(event.target.value);
-    };
-    const SubmitHandler = (event: React.FormEvent<HTMLFormElement> ) => {
+
+    const sigInFormSubmitHandler = async(event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        setIsDataTouched(true);
-
-        if(enteredEmail.trim() === '' || enteredPassword.length < 5 ){
-            setIsValid(false);
-            return;
-        }
-        setIsValid(true);
-
-        const data = {
-            email: enteredEmail,
-            password: enteredPassword
-        }
-        console.log(data, '-----working!!------');
-
-        setEnteredEmail('');
-        setEnteredPassword('');
+        dispatch(SignInThunk(user.username, user.password));
     };
-
-    const isDataValid = !isValid && isDataTouched;
-
+    
 
     return (
-        <div className=" w-[92%] md:w-[60%] lg:w-[40%] md:mt-[2rem] lg:my-[5rem] m-auto pb-4
-        bg-[#D9D9D9] rounded-lg border-solid border-[1px] border-[#AEAEAE] shadow-2xl">
-            <form onSubmit={SubmitHandler} className="flex flex-col gap-4 pt-4 px-3">
-                <label htmlFor="email" className={isDataValid ? `text-red-600 font-bold` : `text-black font-bold`}>
-                    Email address
-                </label>
-                <input type="email" id="email" name="email"
-                    className="pl-2 outline-none py-2" 
-                    value={enteredEmail} onChange={EmailChangeHandler}
-                    placeholder="e.g alex@email.com"
+        <form onSubmit={sigInFormSubmitHandler} className=" w-[92%] md:w-[60%] lg:w-[40%] md:mt-[2rem] 
+            lg:my-[5rem] m-auto py-5 bg-[#D9D9D9] rounded-lg border-solid border-[1px] border-[#AEAEAE] 
+            shadow-2xl px-5 flex flex-col">
+            <div className="mb-[2rem] flex flex-col gap-2">
+                <label className={error ? `text-red-600` : `text-black font-bold`}>Username</label>    
+                <Input 
+                type="text"
+                value={user.username}
+                onChange={(e)=> dispatch(setUser({...user, username: e.target.value}))}
+                placeholder="e.g alex@email.com"  
+                className={error ? `outline-red-400` : `outline-none`}   
                 />
+            </div>
 
-                <label htmlFor="password" className={isDataValid ? `text-red-600 font-bold` : `text-black font-bold`}>Password</label>
-                <input type="password" id="password" name="password"
-                className="pl-2 outline-none py-2" 
-                value={enteredPassword} onChange={PasswordChangeHandler}
-                placeholder="should be p to 8 digits" 
+            <div className="flex flex-col gap-2 mb-3">
+                <label className={error ? `text-red-600` : `text-black font-bold`}>Password</label> 
+                <Input 
+                    type="password"
+                    value={user.password}
+                    onChange={(e)=> dispatch(setUser({...user, password: e.target.value}))}
+                    placeholder="minimum of 8, uppercase, number, and character"
+                    className={error ? `outline-red-400` : `outline-none`}
                 />
+            </div>
+            {error && <p className="text-red-600 text-center py-1">{error}</p>}
 
-                {isDataValid && <p className="text-red-600 text-center font-bold">Enter valid inputs.</p>}
+            <Button disabled={loading} className={loading ? 'text-red-600' : 'text-black'}>
+                {loading ? 'Loading...' : 'Signin'}
+            </Button>
 
-                <button className="bg-[#c8c8c8] py-2 w-36 align-center rounded-xl font-bold m-auto 
-                hover:bg-[#ebe5e5] hover:border-[1px] hover:border-solid hover:border-[#c8c8c8]">Sign in</button>
-            </form>
             <p className="text-center pt-5">Do not have an account? <Link to='/SignUp' 
             className="text-[#633BFF]">Create account</Link></p>
-        </div>
+        </form>
     )
 };
 

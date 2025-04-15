@@ -1,8 +1,19 @@
 import { Link } from "react-router-dom";
 
 import { House, Star } from "lucide-react";
+import { useDispatch, useSelector } from "react-redux";
+import { AppDispatch, RootState } from "../store";
+import { logoutThunk } from "../store/authThunk";
 
 const Header = () => {
+    const dispatch = useDispatch<AppDispatch>();
+    const isLoggedIn = useSelector((state: RootState) => state.auth.isLoggedIn);
+
+    const handleLogout = () => {
+        dispatch(logoutThunk());
+        alert('success!');
+    };
+    
     return (
         <div className="mb-3 md:mb-3 lg:mb-[1.5rem] ">
             <header className="bg-[#D9D9D9] mb-[1.2rem] lg:mb-[2rem] flex px-4 py-5 gap-3">
@@ -14,24 +25,29 @@ const Header = () => {
             flex shadow-xl rounded-lg justify-between">
                 <div className="flex">
                     <Link to="/" className="border-r-[#AEAEAE] border-r-[2px] border-solid px-8 py-3 lg:py-6 
-                    text-[#767676] 
+                    text-[#767676] focus:text-red-500 
                     font-bold hover:bg-[#D6D6D6] hover:text-black hover:font-bold ">
                         <p className="hidden lg:block">Home</p>
                         <House className="lg:hidden" />
                     </Link>
-                    <div className="border-r-[#AEAEAE] border-r-[2px] border-solid px-7 py-3 lg:py-6 
-                    text-[#767676] 
+                    <Link to="/Fav" className="border-r-[#AEAEAE] border-r-[2px] border-solid px-7 py-3 lg:py-6 
+                    text-[#767676] focus:text-red-500 
                     font-bold hover:bg-[#D6D6D6] hover:text-black hover:font-bold text-center ">
                         <p className="hidden lg:block">Favorites</p>
                         <Star className="lg:hidden" />
-                    </div>
+                    </Link>
                 </div>
 
-                <Link to="/SignIn" className="border-l-[#AEAEAE] border-l-[2px] border-solid px-8 py-3 lg:py-6 
-                text-[#767676] 
-                font-bold hover:bg-[#D6D6D6] hover:text-black hover:font-bold">
-                    <p>Sign in</p>
-                </Link>
+                {isLoggedIn ? (
+                    <p onClick={handleLogout} className="border-l-[#AEAEAE] border-l-[2px] border-solid px-8 py-3 lg:py-6 
+                    text-[#767676] focus:text-red-500 
+                    font-bold hover:bg-[#D6D6D6] hover:text-black hover:font-bold">Logout</p>
+                ) : (
+                    <Link to="/SignIn" className="border-l-[#AEAEAE] border-l-[2px] border-solid px-8 py-3 focus:text-red-500 
+                    lg:py-6 text-[#767676] font-bold hover:bg-[#D6D6D6] hover:text-black hover:font-bold">
+                        <p>Sign in</p>
+                    </Link>
+                )}
             </header>
         </div>
     )

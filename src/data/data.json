@@ -1,0 +1,2401 @@
+{
+    "limit": 10,
+    "nextPage": 2,
+    "totalPages": 4,
+    "currentPage": "page 1 of 4",
+    "foundItems": [
+        {
+            "title": "Basil Tagliatelle with Roasted Red Bell Pepper Salad",
+            "image": "https://img.spoonacular.com/recipes/634437-556x370.jpg",
+            "imageType": "jpg",
+            "dishTypes": [
+                "side dish",
+                "antipasti",
+                "starter",
+                "snack",
+                "appetizer",
+                "antipasto",
+                "hor d'oeuvre"
+            ],
+            "detailsFetched": true,
+            "createdAt": "2024-10-17T15:50:21.754Z",
+            "updatedAt": "2024-10-21T07:29:03.152Z",
+            "cheap": false,
+            "dairyFree": true,
+            "extendedIngredients": [
+                {
+                    "id": 2044,
+                    "aisle": "Produce",
+                    "image": "fresh-basil.jpg",
+                    "consistency": "SOLID",
+                    "name": "basil tagliatelle",
+                    "nameClean": "fresh basil",
+                    "original": "200g ( - 7 ounces) whole wheat basil tagliatelle",
+                    "originalName": "200g whole wheat basil tagliatelle",
+                    "amount": 7,
+                    "unit": "ounces",
+                    "meta": [
+                        "whole wheat"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 7,
+                            "unitShort": "oz",
+                            "unitLong": "ounces"
+                        },
+                        "metric": {
+                            "amount": 198.447,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 11821,
+                    "aisle": "Produce",
+                    "image": "red-pepper.jpg",
+                    "consistency": "SOLID",
+                    "name": "bell peppers",
+                    "nameClean": "red pepper",
+                    "original": "10 red bell peppers, medium",
+                    "originalName": "10 red bell peppers, medium",
+                    "amount": 10,
+                    "unit": "medium",
+                    "meta": [
+                        "red"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 10,
+                            "unitShort": "medium",
+                            "unitLong": "mediums"
+                        },
+                        "metric": {
+                            "amount": 10,
+                            "unitShort": "medium",
+                            "unitLong": "mediums"
+                        }
+                    }
+                },
+                {
+                    "id": 10211215,
+                    "aisle": "Produce",
+                    "image": "garlic.jpg",
+                    "consistency": "SOLID",
+                    "name": "garlic cloves",
+                    "nameClean": "whole garlic cloves",
+                    "original": "4 garlic cloves, minced",
+                    "originalName": "garlic cloves, minced",
+                    "amount": 4,
+                    "unit": "",
+                    "meta": [
+                        "minced"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 4,
+                            "unitShort": "",
+                            "unitLong": ""
+                        },
+                        "metric": {
+                            "amount": 4,
+                            "unitShort": "",
+                            "unitLong": ""
+                        }
+                    }
+                },
+                {
+                    "id": 11297,
+                    "aisle": "Produce",
+                    "image": "parsley.jpg",
+                    "consistency": "SOLID",
+                    "name": "parsley",
+                    "nameClean": "parsley",
+                    "original": "4 tbsp chopped parsley",
+                    "originalName": "chopped parsley",
+                    "amount": 4,
+                    "unit": "tbsp",
+                    "meta": [
+                        "chopped"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 4,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        },
+                        "metric": {
+                            "amount": 4,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        }
+                    }
+                },
+                {
+                    "id": 1002055,
+                    "aisle": "Produce",
+                    "image": "horseradish.jpg",
+                    "consistency": "LIQUID",
+                    "name": "horseradish",
+                    "nameClean": "horseradish",
+                    "original": "4 tbsp grated horseradish",
+                    "originalName": "grated horseradish",
+                    "amount": 4,
+                    "unit": "tbsp",
+                    "meta": [
+                        "grated"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 4,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        },
+                        "metric": {
+                            "amount": 4,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        }
+                    }
+                },
+                {
+                    "id": 11291,
+                    "aisle": "Produce",
+                    "image": "spring-onions.jpg",
+                    "consistency": "SOLID",
+                    "name": "green onions",
+                    "nameClean": "spring onions",
+                    "original": "2 green onions, chopped",
+                    "originalName": "green onions, chopped",
+                    "amount": 2,
+                    "unit": "",
+                    "meta": [
+                        "chopped"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "",
+                            "unitLong": ""
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "",
+                            "unitLong": ""
+                        }
+                    }
+                },
+                {
+                    "id": 9152,
+                    "aisle": "Produce",
+                    "image": "lemon-juice.jpg",
+                    "consistency": "LIQUID",
+                    "name": "lemon juice",
+                    "nameClean": "lemon juice",
+                    "original": "4 tbsp lemon juice",
+                    "originalName": "lemon juice",
+                    "amount": 4,
+                    "unit": "tbsp",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 4,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        },
+                        "metric": {
+                            "amount": 4,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        }
+                    }
+                },
+                {
+                    "id": 1034053,
+                    "aisle": "Oil, Vinegar, Salad Dressing",
+                    "image": "olive-oil.jpg",
+                    "consistency": "LIQUID",
+                    "name": "extra virgin olive oil",
+                    "nameClean": "extra virgin olive oil",
+                    "original": "3 tbsp extra virgin olive oil",
+                    "originalName": "extra virgin olive oil",
+                    "amount": 3,
+                    "unit": "tbsp",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 3,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        },
+                        "metric": {
+                            "amount": 3,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        }
+                    }
+                },
+                {
+                    "id": 1012047,
+                    "aisle": "Spices and Seasonings",
+                    "image": "salt.jpg",
+                    "consistency": "SOLID",
+                    "name": "sea salt",
+                    "nameClean": "coarse sea salt",
+                    "original": "1 tsp sea salt",
+                    "originalName": "sea salt",
+                    "amount": 1,
+                    "unit": "tsp",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "tsp",
+                            "unitLong": "teaspoon"
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "tsp",
+                            "unitLong": "teaspoon"
+                        }
+                    }
+                },
+                {
+                    "id": 1002030,
+                    "aisle": "Spices and Seasonings",
+                    "image": "pepper.jpg",
+                    "consistency": "SOLID",
+                    "name": "ground pepper",
+                    "nameClean": "black pepper",
+                    "original": "1/3 tsp ground pepper",
+                    "originalName": "ground pepper",
+                    "amount": 0.33333334,
+                    "unit": "tsp",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 0.333,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        },
+                        "metric": {
+                            "amount": 0.333,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        }
+                    }
+                }
+            ],
+            "glutenFree": true,
+            "healthScore": 100,
+            "license": "CC BY 3.0",
+            "pricePerServing": 407.11,
+            "readyInMinutes": 45,
+            "servings": 4,
+            "sourceName": "Foodista",
+            "sourceUrl": "https://www.foodista.com/recipe/B6VWDFWJ/basil-tagliatelle-with-roasted-red-bell-pepper-salad",
+            "spoonacularScore": 95.63887786865234,
+            "spoonacularSourceUrl": "https://spoonacular.com/basil-tagliatelle-with-roasted-red-bell-pepper-salad-634437",
+            "summary": "Basil Tagliatelle with Roasted Red Bell Pepper Salad might be a good recipe to expand your hor d'oeuvre repertoire. This recipe serves 4 and costs $4.07 per serving. One serving contains <b>200 calories</b>, <b>5g of protein</b>, and <b>12g of fat</b>. A mixture of extra virgin olive oil, horseradish, garlic cloves, and a handful of other ingredients are all it takes to make this recipe so tasty. 4 people have made this recipe and would make it again. It is brought to you by Foodista. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. It is a good option if you're following a <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> diet. Overall, this recipe earns an <b>outstanding spoonacular score of 93%</b>. Similar recipes are <a href=\"https://spoonacular.com/recipes/roasted-red-bell-pepper-and-basil-sauce-22150\">Roasted Red Bell Pepper and Basil Sauce</a>, <a href=\"https://spoonacular.com/recipes/roasted-red-bell-pepper-and-fennel-salad-21985\">Roasted Red Bell Pepper And Fennel Salad</a>, and <a href=\"https://spoonacular.com/recipes/roasted-sweet-potato-salad-with-red-bell-pepper-22026\">Roasted Sweet Potato Salad With Red Bell Pepper</a>.",
+            "sustainable": false,
+            "vegan": true,
+            "vegetarian": true,
+            "veryHealthy": true,
+            "veryPopular": false,
+            "id": "634437"
+        },
+        {
+            "title": "Shredded Roast Beef Stuffed Sweet Potatoes (Whole 30 & PALEO)",
+            "image": "https://img.spoonacular.com/recipes/1044252-556x370.jpg",
+            "imageType": "jpg",
+            "dishTypes": [
+                "lunch",
+                "main course",
+                "main dish",
+                "dinner"
+            ],
+            "detailsFetched": true,
+            "createdAt": "2024-10-17T15:50:21.754Z",
+            "updatedAt": "2024-10-21T07:44:44.767Z",
+            "cheap": false,
+            "dairyFree": true,
+            "extendedIngredients": [
+                {
+                    "id": 6008,
+                    "aisle": "Canned and Jarred",
+                    "image": "beef-broth.png",
+                    "consistency": "LIQUID",
+                    "name": "beef broth",
+                    "nameClean": "beef broth",
+                    "original": "beef broth",
+                    "originalName": "beef broth",
+                    "amount": 5,
+                    "unit": "servings",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 5,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        },
+                        "metric": {
+                            "amount": 5,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        }
+                    }
+                },
+                {
+                    "id": 23612,
+                    "aisle": "Meat",
+                    "image": "pot-roast.jpg",
+                    "consistency": "SOLID",
+                    "name": "pot roast",
+                    "nameClean": "pot roast",
+                    "original": "2 lb roast",
+                    "originalName": "roast",
+                    "amount": 2,
+                    "unit": "lb",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "lb",
+                            "unitLong": "pounds"
+                        },
+                        "metric": {
+                            "amount": 907.185,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 1102047,
+                    "aisle": "Spices and Seasonings",
+                    "image": "salt-and-pepper.jpg",
+                    "consistency": "SOLID",
+                    "name": "salt and pepper",
+                    "nameClean": "salt and pepper",
+                    "original": "salt and pepper to taste",
+                    "originalName": "salt and pepper to taste",
+                    "amount": 5,
+                    "unit": "servings",
+                    "meta": [
+                        "to taste"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 5,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        },
+                        "metric": {
+                            "amount": 5,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        }
+                    }
+                },
+                {
+                    "id": 11507,
+                    "aisle": "Produce",
+                    "image": "sweet-potato.png",
+                    "consistency": "SOLID",
+                    "name": "sweet potatoes",
+                    "nameClean": "sweet potato",
+                    "original": "6 sweet potatoes",
+                    "originalName": "sweet potatoes",
+                    "amount": 6,
+                    "unit": "",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 6,
+                            "unitShort": "",
+                            "unitLong": ""
+                        },
+                        "metric": {
+                            "amount": 6,
+                            "unitShort": "",
+                            "unitLong": ""
+                        }
+                    }
+                }
+            ],
+            "glutenFree": true,
+            "healthScore": 79,
+            "pricePerServing": 237.36,
+            "readyInMinutes": 490,
+            "servings": 5,
+            "sourceName": "pinkwhen.com",
+            "sourceUrl": "https://www.pinkwhen.com/shredded-roast-beef-stuffed-sweet-potatoes/",
+            "spoonacularScore": 95.74092102050781,
+            "spoonacularSourceUrl": "https://spoonacular.com/shredded-roast-beef-stuffed-sweet-potatoes-whole-30-paleo-1044252",
+            "summary": "Need a <b>gluten free, dairy free, paleolithic, and primal side dish</b>? Shredded Roast Beef Stuffed Sweet Potatoes (Whole 30 & PALEO) could be a great recipe to try. One portion of this dish contains around <b>135g of protein</b>, <b>242g of fat</b>, and a total of <b>3376 calories</b>. For <b>$4.24 per serving</b>, this recipe <b>covers 69%</b> of your daily requirements of vitamins and minerals. This recipe serves 5. Head to the store and pick up sweet potatoes, roast, beef broth, and a few other things to make it today. From preparation to the plate, this recipe takes about <b>8 hours and 10 minutes</b>. This recipe from Pink When has 8 fans. With a spoonacular <b>score of 62%</b>, this dish is pretty good. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/shredded-roast-beef-stuffed-sweet-potatoes-whole-30-paleo-769774\">Shredded Roast Beef Stuffed Sweet Potatoes (Whole 30 & PALEO)</a>, <a href=\"https://spoonacular.com/recipes/paleo-s-chicken-stuffed-sweet-potatoes-592982\">Paleo s: Chicken Stuffed Sweet Potatoes</a>, and <a href=\"https://spoonacular.com/recipes/paleo-shredded-slow-cooker-roast-beef-with-pumpkin-and-salsa-+-a-slow-cooker-roundup-and-giveaway-680175\">Paleo Shredded Slow Cooker Roast Beef with Pumpkin and Salsa + A Slow Cooker Roundup and GIVEAWAY</a>.",
+            "sustainable": false,
+            "vegan": false,
+            "vegetarian": false,
+            "veryHealthy": true,
+            "veryPopular": false,
+            "id": "1044252"
+        },
+        {
+            "title": "Cauliflower Rice",
+            "image": "https://img.spoonacular.com/recipes/1697645-556x370.jpg",
+            "imageType": "jpg",
+            "dishTypes": [
+                "side dish"
+            ],
+            "detailsFetched": true,
+            "createdAt": "2024-10-17T15:50:21.754Z",
+            "updatedAt": "2024-10-21T08:42:45.408Z",
+            "cheap": false,
+            "dairyFree": true,
+            "extendedIngredients": [
+                {
+                    "id": 11135,
+                    "aisle": "Produce",
+                    "image": "cauliflower.jpg",
+                    "consistency": "SOLID",
+                    "name": "cauliflower",
+                    "nameClean": "cauliflower",
+                    "original": "1 (1-1/2 lb) head of cauliflower",
+                    "originalName": "cauliflower",
+                    "amount": 1.5,
+                    "unit": "lb",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1.5,
+                            "unitShort": "lb",
+                            "unitLong": "pounds"
+                        },
+                        "metric": {
+                            "amount": 680.389,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 1034053,
+                    "aisle": "Oil, Vinegar, Salad Dressing",
+                    "image": "olive-oil.jpg",
+                    "consistency": "LIQUID",
+                    "name": "olive oil",
+                    "nameClean": "extra virgin olive oil",
+                    "original": "2 Tbsp extra-virgin olive oil",
+                    "originalName": "extra-virgin olive oil",
+                    "amount": 2,
+                    "unit": "Tbsp",
+                    "meta": [
+                        "extra-virgin"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        }
+                    }
+                },
+                {
+                    "id": 11246,
+                    "aisle": "Produce",
+                    "image": "leeks.jpg",
+                    "consistency": "SOLID",
+                    "name": "leek",
+                    "nameClean": "leek",
+                    "original": "1 leek, finely chopped (about 1/2 c)",
+                    "originalName": "leek, finely chopped (about",
+                    "amount": 0.5,
+                    "unit": "c",
+                    "meta": [
+                        "finely chopped"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 0.5,
+                            "unitShort": "cups",
+                            "unitLong": "cups"
+                        },
+                        "metric": {
+                            "amount": 44.5,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 1102047,
+                    "aisle": "Spices and Seasonings",
+                    "image": "salt-and-pepper.jpg",
+                    "consistency": "SOLID",
+                    "name": "salt and pepper",
+                    "nameClean": "salt and pepper",
+                    "original": "1/4 tsp each of salt and pepper (more to taste)",
+                    "originalName": "each of salt and pepper (more to taste)",
+                    "amount": 0.25,
+                    "unit": "tsp",
+                    "meta": [
+                        "to taste",
+                        "(more )"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 0.25,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        },
+                        "metric": {
+                            "amount": 0.25,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        }
+                    }
+                },
+                {
+                    "id": 10311297,
+                    "aisle": "Produce",
+                    "image": "parsley.jpg",
+                    "consistency": "SOLID",
+                    "name": "flat leaf parsley",
+                    "nameClean": "flat leaf parsley",
+                    "original": "1/2 c flat leaf Italian parsley, roughly chopped",
+                    "originalName": "flat leaf Italian parsley, roughly chopped",
+                    "amount": 0.5,
+                    "unit": "c",
+                    "meta": [
+                        "italian",
+                        "roughly chopped"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 0.5,
+                            "unitShort": "cups",
+                            "unitLong": "cups"
+                        },
+                        "metric": {
+                            "amount": 30,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                }
+            ],
+            "glutenFree": true,
+            "healthScore": 100,
+            "license": "spoonacular's terms",
+            "pricePerServing": 522.83,
+            "readyInMinutes": 15,
+            "servings": 1,
+            "sourceName": "Maplewood Road",
+            "sourceUrl": "https://maplewoodroad.com/cauliflower-rice-and-oven-roasted-cauliflower/",
+            "spoonacularScore": 94.366455078125,
+            "spoonacularSourceUrl": "https://spoonacular.com/cauliflower-rice-1697645",
+            "summary": "If you want to add more <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> recipes to your recipe box, Cauliflower Rice might be a recipe you should try. This recipe makes 1 servings with <b>456 calories</b>, <b>15g of protein</b>, and <b>30g of fat</b> each. For <b>$5.23 per serving</b>, this recipe <b>covers 39%</b> of your daily requirements of vitamins and minerals. It works best as a side dish, and is done in approximately <b>15 minutes</b>. A mixture of cauliflower, olive oil, flat leaf parsley, and a handful of other ingredients are all it takes to make this recipe so scrumptious. It is brought to you by spoonacular user <a href=\"/profile/maplewoodroad\">maplewoodroad</a>. Similar recipes include <a href=\"https://spoonacular.com/recipes/cauliflower-brown-rice-and-vegetable-fried-rice-1625893\">Cauliflower, Brown Rice, and Vegetable Fried Rice</a>, <a href=\"https://spoonacular.com/recipes/cauliflower-brown-rice-and-vegetable-fried-rice-1584601\">Cauliflower, Brown Rice, and Vegetable Fried Rice</a>, and <a href=\"https://spoonacular.com/recipes/cauliflower-brown-rice-and-vegetable-fried-rice-1403527\">Cauliflower, Brown Rice, and Vegetable Fried Rice</a>.",
+            "sustainable": false,
+            "vegan": true,
+            "vegetarian": true,
+            "veryHealthy": true,
+            "veryPopular": false,
+            "id": "1697645"
+        },
+        {
+            "title": "Cilantro Lime Halibut",
+            "image": "https://img.spoonacular.com/recipes/639411-556x370.jpg",
+            "imageType": "jpg",
+            "dishTypes": [
+                "lunch",
+                "main course",
+                "main dish",
+                "dinner"
+            ],
+            "detailsFetched": true,
+            "createdAt": "2024-10-17T15:50:21.754Z",
+            "updatedAt": "2024-10-21T08:18:30.385Z",
+            "cheap": false,
+            "dairyFree": true,
+            "extendedIngredients": [
+                {
+                    "id": 6172,
+                    "aisle": "Canned and Jarred",
+                    "image": "chicken-broth.png",
+                    "consistency": "LIQUID",
+                    "name": "chicken stock",
+                    "nameClean": "chicken stock",
+                    "original": "1/4 cup chicken stock",
+                    "originalName": "chicken stock",
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 0.25,
+                            "unitShort": "cups",
+                            "unitLong": "cups"
+                        },
+                        "metric": {
+                            "amount": 60,
+                            "unitShort": "ml",
+                            "unitLong": "milliliters"
+                        }
+                    }
+                },
+                {
+                    "id": 11165,
+                    "aisle": "Produce",
+                    "image": "cilantro.png",
+                    "consistency": "SOLID",
+                    "name": "cilantro",
+                    "nameClean": "cilantro",
+                    "original": "A bunch of fresh cilantro",
+                    "originalName": "fresh cilantro",
+                    "amount": 1,
+                    "unit": "bunch",
+                    "meta": [
+                        "fresh"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "bunch",
+                            "unitLong": "bunch"
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "bunch",
+                            "unitLong": "bunch"
+                        }
+                    }
+                },
+                {
+                    "id": 11291,
+                    "aisle": "Produce",
+                    "image": "spring-onions.jpg",
+                    "consistency": "SOLID",
+                    "name": "green onions",
+                    "nameClean": "spring onions",
+                    "original": "2 green onions, chopped from the white part halfway up the green part",
+                    "originalName": "green onions, chopped from the white part halfway up the green part",
+                    "amount": 2,
+                    "unit": "",
+                    "meta": [
+                        "chopped"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "",
+                            "unitLong": ""
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "",
+                            "unitLong": ""
+                        }
+                    }
+                },
+                {
+                    "id": 15036,
+                    "aisle": "Seafood",
+                    "image": "halibut-fillet.jpg",
+                    "consistency": "SOLID",
+                    "name": "pacific halibut filets",
+                    "nameClean": "halibut fillets",
+                    "original": "2 (1/2 lb) Wild Pacific Halibut Filets",
+                    "originalName": "Wild Pacific Halibut Filets",
+                    "amount": 1,
+                    "unit": "lb",
+                    "meta": [
+                        "wild"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "lb",
+                            "unitLong": "pound"
+                        },
+                        "metric": {
+                            "amount": 453.592,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 9160,
+                    "aisle": "Produce",
+                    "image": "lime-juice.png",
+                    "consistency": "LIQUID",
+                    "name": "juice of lime",
+                    "nameClean": "lime juice",
+                    "original": "juice of lime, divided",
+                    "originalName": "juice of lime, divided",
+                    "amount": 2,
+                    "unit": "",
+                    "meta": [
+                        "divided"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "",
+                            "unitLong": ""
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "",
+                            "unitLong": ""
+                        }
+                    }
+                },
+                {
+                    "id": 4053,
+                    "aisle": "Oil, Vinegar, Salad Dressing",
+                    "image": "olive-oil.jpg",
+                    "consistency": "LIQUID",
+                    "name": "another slug of blood orange olive oil",
+                    "nameClean": "olive oil",
+                    "original": "Another slug of Blood Orange Olive Oil",
+                    "originalName": "Another slug of Blood Orange Olive Oil",
+                    "amount": 2,
+                    "unit": "servings",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        }
+                    }
+                },
+                {
+                    "id": 4053,
+                    "aisle": "Oil, Vinegar, Salad Dressing",
+                    "image": "olive-oil.jpg",
+                    "consistency": "LIQUID",
+                    "name": "mollie stone's blood orange olive oil",
+                    "nameClean": "olive oil",
+                    "original": "2 tsp Mollie Stone's Blood Orange Olive Oil (or regular olive oil)",
+                    "originalName": "Mollie Stone's Blood Orange Olive Oil (or regular olive oil)",
+                    "amount": 2,
+                    "unit": "tsp",
+                    "meta": [
+                        "(or regular olive oil)"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        }
+                    }
+                },
+                {
+                    "id": 11215,
+                    "aisle": "Produce",
+                    "image": "garlic.png",
+                    "consistency": "SOLID",
+                    "name": "dusting of garlic-pepper",
+                    "nameClean": "garlic",
+                    "original": "Dusting of garlic-pepper",
+                    "originalName": "Dusting of garlic-pepper",
+                    "amount": 2,
+                    "unit": "servings",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        }
+                    }
+                },
+                {
+                    "id": 1102047,
+                    "aisle": "Spices and Seasonings",
+                    "image": "salt-and-pepper.jpg",
+                    "consistency": "SOLID",
+                    "name": "salt and pepper",
+                    "nameClean": "salt and pepper",
+                    "original": "Salt and pepper to taste",
+                    "originalName": "Salt and pepper to taste",
+                    "amount": 2,
+                    "unit": "servings",
+                    "meta": [
+                        "to taste"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        }
+                    }
+                },
+                {
+                    "id": 14106,
+                    "aisle": "Alcoholic Beverages",
+                    "image": "white-wine.jpg",
+                    "consistency": "LIQUID",
+                    "name": "white wine",
+                    "nameClean": "dry white wine",
+                    "original": "1/4 cup white wine",
+                    "originalName": "white wine",
+                    "amount": 0.25,
+                    "unit": "cup",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 0.25,
+                            "unitShort": "cups",
+                            "unitLong": "cups"
+                        },
+                        "metric": {
+                            "amount": 60,
+                            "unitShort": "ml",
+                            "unitLong": "milliliters"
+                        }
+                    }
+                }
+            ],
+            "glutenFree": true,
+            "healthScore": 68,
+            "license": "CC BY 3.0",
+            "pricePerServing": 881.11,
+            "readyInMinutes": 45,
+            "servings": 2,
+            "sourceName": "Foodista",
+            "sourceUrl": "https://www.foodista.com/recipe/W2C6K48J/cilantro-lime-halibut",
+            "spoonacularScore": 95.53705596923828,
+            "spoonacularSourceUrl": "https://spoonacular.com/cilantro-lime-halibut-639411",
+            "summary": "Cilantro Lime Halibut might be a good recipe to expand your main course recipe box. This recipe serves 2. One portion of this dish contains roughly <b>44g of protein</b>, <b>22g of fat</b>, and a total of <b>422 calories</b>. For <b>$8.81 per serving</b>, this recipe <b>covers 29%</b> of your daily requirements of vitamins and minerals. This recipe from Foodista requires chicken stock, juice of lime, green onions, and salt and pepper. 19 people found this recipe to be delicious and satisfying. From preparation to the plate, this recipe takes around <b>45 minutes</b>. It is a good option if you're following a <b>gluten free, dairy free, paleolithic, and primal</b> diet. Overall, this recipe earns an <b>outstanding spoonacular score of 95%</b>. Similar recipes are <a href=\"https://spoonacular.com/recipes/cilantro-ginger-halibut-1281969\">Cilantro-Ginger Halibut</a>, <a href=\"https://spoonacular.com/recipes/cilantro-ginger-halibut-86400\">Cilantro-Ginger Halibut</a>, and <a href=\"https://spoonacular.com/recipes/halibut-with-citrus-and-cilantro-3296\">Halibut With Citrus And Cilantro</a>.",
+            "sustainable": false,
+            "vegan": false,
+            "vegetarian": false,
+            "veryHealthy": true,
+            "veryPopular": false,
+            "id": "639411"
+        },
+        {
+            "title": "Roasted Broccoli with Lemon and Garlic",
+            "image": "https://img.spoonacular.com/recipes/658509-556x370.jpg",
+            "imageType": "jpg",
+            "dishTypes": [
+                "side dish"
+            ],
+            "detailsFetched": true,
+            "createdAt": "2024-10-17T15:50:21.754Z",
+            "updatedAt": "2024-10-21T08:13:44.086Z",
+            "cheap": false,
+            "dairyFree": true,
+            "extendedIngredients": [
+                {
+                    "id": 10011090,
+                    "aisle": "Produce",
+                    "image": "broccoli.jpg",
+                    "consistency": "SOLID",
+                    "name": "broccoli florets",
+                    "nameClean": "broccoli florets",
+                    "original": "5 cups Organic Broccoli Florets",
+                    "originalName": "Organic Broccoli Florets",
+                    "amount": 5,
+                    "unit": "cups",
+                    "meta": [
+                        "organic"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 5,
+                            "unitShort": "cups",
+                            "unitLong": "cups"
+                        },
+                        "metric": {
+                            "amount": 455,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 1034053,
+                    "aisle": "Oil, Vinegar, Salad Dressing",
+                    "image": "olive-oil.jpg",
+                    "consistency": "LIQUID",
+                    "name": "extra virgin olive oil",
+                    "nameClean": "extra virgin olive oil",
+                    "original": "2 teaspoons Extra Virgin Olive Oil",
+                    "originalName": "Extra Virgin Olive Oil",
+                    "amount": 2,
+                    "unit": "teaspoons",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        }
+                    }
+                },
+                {
+                    "id": 11215,
+                    "aisle": "Produce",
+                    "image": "garlic.png",
+                    "consistency": "SOLID",
+                    "name": "garlic",
+                    "nameClean": "garlic",
+                    "original": "1 clove of garlic, or more",
+                    "originalName": "garlic, or more",
+                    "amount": 1,
+                    "unit": "clove",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "clove",
+                            "unitLong": "clove"
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "clove",
+                            "unitLong": "clove"
+                        }
+                    }
+                },
+                {
+                    "id": 1002030,
+                    "aisle": "Spices and Seasonings",
+                    "image": "pepper.jpg",
+                    "consistency": "SOLID",
+                    "name": "ground pepper",
+                    "nameClean": "black pepper",
+                    "original": "½ teaspoons Ground Black Pepper",
+                    "originalName": "Ground Black Pepper",
+                    "amount": 0.5,
+                    "unit": "teaspoons",
+                    "meta": [
+                        "black"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 0.5,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        },
+                        "metric": {
+                            "amount": 0.5,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        }
+                    }
+                },
+                {
+                    "id": 9152,
+                    "aisle": "Produce",
+                    "image": "lemon-juice.jpg",
+                    "consistency": "LIQUID",
+                    "name": "lemon juice",
+                    "nameClean": "lemon juice",
+                    "original": "½ teaspoons Lemon Juice",
+                    "originalName": "Lemon Juice",
+                    "amount": 0.5,
+                    "unit": "teaspoons",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 0.5,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        },
+                        "metric": {
+                            "amount": 0.5,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        }
+                    }
+                },
+                {
+                    "id": 2047,
+                    "aisle": "Spices and Seasonings",
+                    "image": "salt.jpg",
+                    "consistency": "SOLID",
+                    "name": "salt",
+                    "nameClean": "table salt",
+                    "original": "1/2 teaspoon salt",
+                    "originalName": "salt",
+                    "amount": 0.5,
+                    "unit": "teaspoon",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 0.5,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        },
+                        "metric": {
+                            "amount": 0.5,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        }
+                    }
+                }
+            ],
+            "glutenFree": true,
+            "healthScore": 70,
+            "license": "CC BY 3.0",
+            "pricePerServing": 30.33,
+            "readyInMinutes": 45,
+            "servings": 4,
+            "sourceName": "Foodista",
+            "sourceUrl": "https://www.foodista.com/recipe/3Z8R4RGY/roasted-broccoli-with-lemon-and-garlic",
+            "spoonacularScore": 96.80970001220703,
+            "spoonacularSourceUrl": "https://spoonacular.com/roasted-broccoli-with-lemon-and-garlic-658509",
+            "summary": "Roasted Broccoli with Lemon and Garlic is a side dish that serves 4. One portion of this dish contains approximately <b>3g of protein</b>, <b>2g of fat</b>, and a total of <b>58 calories</b>. For <b>30 cents per serving</b>, this recipe <b>covers 14%</b> of your daily requirements of vitamins and minerals. If you have lemon juice, ground pepper, salt, and a few other ingredients on hand, you can make it. 11 person have tried and liked this recipe. It is brought to you by Foodista. It is a good option if you're following a <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> diet. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 96%</b>, which is awesome. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/roasted-broccoli-with-lemon-and-garlic-1345079\">Roasted Broccoli with Lemon and Garlic</a>, <a href=\"https://spoonacular.com/recipes/roasted-broccoli-with-lemon-and-garlic-1337497\">Roasted Broccoli with Lemon and Garlic</a>, and <a href=\"https://spoonacular.com/recipes/roasted-garlic-lemon-broccoli-110090\">Roasted Garlic Lemon Broccoli</a>.",
+            "sustainable": false,
+            "vegan": true,
+            "vegetarian": true,
+            "veryHealthy": true,
+            "veryPopular": false,
+            "id": "658509"
+        },
+        {
+            "title": "Garlic Lemon Chili Broccoli ",
+            "image": "https://img.spoonacular.com/recipes/1132339-556x370.jpg",
+            "imageType": "jpg",
+            "dishTypes": [
+                "soup",
+                "antipasti",
+                "starter",
+                "snack",
+                "appetizer",
+                "antipasto",
+                "hor d'oeuvre"
+            ],
+            "detailsFetched": true,
+            "createdAt": "2024-10-17T15:50:21.754Z",
+            "updatedAt": "2024-10-21T08:39:06.119Z",
+            "cheap": false,
+            "dairyFree": true,
+            "extendedIngredients": [
+                {
+                    "id": 11090,
+                    "aisle": "Produce",
+                    "image": "broccoli.jpg",
+                    "consistency": "SOLID",
+                    "name": "broccoli",
+                    "nameClean": "broccoli",
+                    "original": "1 1/2 pounds broccoli",
+                    "originalName": "broccoli",
+                    "amount": 1.5,
+                    "unit": "pounds",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1.5,
+                            "unitShort": "lb",
+                            "unitLong": "pounds"
+                        },
+                        "metric": {
+                            "amount": 680.389,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 11215,
+                    "aisle": "Produce",
+                    "image": "garlic.png",
+                    "consistency": "SOLID",
+                    "name": "garlic",
+                    "nameClean": "garlic",
+                    "original": "3 cloves garlic, mashed",
+                    "originalName": "garlic, mashed",
+                    "amount": 3,
+                    "unit": "cloves",
+                    "meta": [
+                        "mashed"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 3,
+                            "unitShort": "cloves",
+                            "unitLong": "cloves"
+                        },
+                        "metric": {
+                            "amount": 3,
+                            "unitShort": "cloves",
+                            "unitLong": "cloves"
+                        }
+                    }
+                },
+                {
+                    "id": 9152,
+                    "aisle": "Produce",
+                    "image": "lemon-juice.jpg",
+                    "consistency": "LIQUID",
+                    "name": "lemon juice",
+                    "nameClean": "lemon juice",
+                    "original": "2 tbsp lemon juice",
+                    "originalName": "lemon juice",
+                    "amount": 2,
+                    "unit": "tbsp",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        }
+                    }
+                },
+                {
+                    "id": 1022053,
+                    "aisle": "Ethnic Foods",
+                    "image": "rice-vinegar.png",
+                    "consistency": "LIQUID",
+                    "name": "rice vinegar",
+                    "nameClean": "rice vinegar",
+                    "original": "2 tbsp rice vinegar",
+                    "originalName": "rice vinegar",
+                    "amount": 2,
+                    "unit": "tbsp",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        }
+                    }
+                },
+                {
+                    "id": 1002046,
+                    "aisle": "Condiments",
+                    "image": "dijon-mustard.jpg",
+                    "consistency": "LIQUID",
+                    "name": "dijon mustard",
+                    "nameClean": "creole mustard",
+                    "original": "1/2 tsp Dijon mustard",
+                    "originalName": "Dijon mustard",
+                    "amount": 0.5,
+                    "unit": "tsp",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 0.5,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        },
+                        "metric": {
+                            "amount": 0.5,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        }
+                    }
+                },
+                {
+                    "id": 4053,
+                    "aisle": "Oil, Vinegar, Salad Dressing",
+                    "image": "olive-oil.jpg",
+                    "consistency": "LIQUID",
+                    "name": "olive oil",
+                    "nameClean": "olive oil",
+                    "original": "1/3 cup olive oil",
+                    "originalName": "olive oil",
+                    "amount": 0.33333334,
+                    "unit": "cup",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 0.33333334,
+                            "unitShort": "cups",
+                            "unitLong": "cups"
+                        },
+                        "metric": {
+                            "amount": 72,
+                            "unitShort": "ml",
+                            "unitLong": "milliliters"
+                        }
+                    }
+                },
+                {
+                    "id": 1032009,
+                    "aisle": "Spices and Seasonings",
+                    "image": "red-pepper-flakes.jpg",
+                    "consistency": "SOLID",
+                    "name": "red pepper flakes",
+                    "nameClean": "red pepper flakes",
+                    "original": "red pepper flakes to taste",
+                    "originalName": "red pepper flakes to taste",
+                    "amount": 2,
+                    "unit": "servings",
+                    "meta": [
+                        "red",
+                        "to taste"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        }
+                    }
+                },
+                {
+                    "id": 1102047,
+                    "aisle": "Spices and Seasonings",
+                    "image": "salt-and-pepper.jpg",
+                    "consistency": "SOLID",
+                    "name": "salt and pepper",
+                    "nameClean": "salt and pepper",
+                    "original": "salt and pepper to taste",
+                    "originalName": "salt and pepper to taste",
+                    "amount": 2,
+                    "unit": "servings",
+                    "meta": [
+                        "to taste"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        }
+                    }
+                }
+            ],
+            "glutenFree": true,
+            "healthScore": 100,
+            "pricePerServing": 155.62,
+            "readyInMinutes": 30,
+            "servings": 2,
+            "sourceName": "blogspot.com",
+            "sourceUrl": "https://foodwishes.blogspot.com/2010/06/will-this-great-broccoli-salad-become.html",
+            "spoonacularScore": 95.3492431640625,
+            "spoonacularSourceUrl": "https://spoonacular.com/garlic-lemon-chili-broccoli-1132339",
+            "summary": "If you want to add more <b>American</b> recipes to your collection, Garlic Lemon Chili Broccoli might be a recipe you should try. One serving contains <b>453 calories</b>, <b>10g of protein</b>, and <b>38g of fat</b>. For <b>$1.56 per serving</b>, this recipe <b>covers 29%</b> of your daily requirements of vitamins and minerals. This recipe serves 2. <b>The Super Bowl</b> will be even more special with this recipe. 1 person has made this recipe and would make it again. From preparation to the plate, this recipe takes roughly <b>30 minutes</b>. It is brought to you by foodwishes.blogspot.com. It works well as a budget friendly hor d'oeuvre. It is a good option if you're following a <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> diet. Taking all factors into account, this recipe <b>earns a spoonacular score of 0%</b>, which is improvable. Try <a href=\"https://spoonacular.com/recipes/roasted-broccoli-with-lemon-chili-garlic-oil-parmesan-576960\">Roasted Broccoli with Lemon, Chili-Garlic Oil & Parmesan</a>, <a href=\"https://spoonacular.com/recipes/oven-roasted-broccoli-with-lemon-chili-garlic-oil-and-parmesan-29395\">Oven Roasted Broccoli With Lemon, Chili-garlic Oil And Parmesan</a>, and <a href=\"https://spoonacular.com/recipes/chili-garlic-roasted-broccoli-109600\">Chili-Garlic Roasted Broccoli</a> for similar recipes.",
+            "sustainable": false,
+            "vegan": true,
+            "vegetarian": true,
+            "veryHealthy": true,
+            "veryPopular": false,
+            "id": "1132339"
+        },
+        {
+            "title": "Carrot and Cabbage Salad With Coriander+cumin Dry Rub",
+            "image": "https://img.spoonacular.com/recipes/637162-556x370.jpg",
+            "imageType": "jpg",
+            "dishTypes": [
+                "side dish",
+                "antipasti",
+                "salad",
+                "starter",
+                "snack",
+                "appetizer",
+                "antipasto",
+                "hor d'oeuvre"
+            ],
+            "detailsFetched": true,
+            "createdAt": "2024-10-17T15:50:21.754Z",
+            "updatedAt": "2024-10-21T08:05:45.225Z",
+            "cheap": false,
+            "dairyFree": true,
+            "extendedIngredients": [
+                {
+                    "id": 11124,
+                    "aisle": "Produce",
+                    "image": "sliced-carrot.png",
+                    "consistency": "SOLID",
+                    "name": "carrots",
+                    "nameClean": "carrot",
+                    "original": "1 1/2 cups of carrots",
+                    "originalName": "carrots",
+                    "amount": 1.5,
+                    "unit": "cups",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1.5,
+                            "unitShort": "cups",
+                            "unitLong": "cups"
+                        },
+                        "metric": {
+                            "amount": 192,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 2014,
+                    "aisle": "Spices and Seasonings",
+                    "image": "ground-cumin.jpg",
+                    "consistency": "SOLID",
+                    "name": "cumin seed powder",
+                    "nameClean": "cumin seeds",
+                    "original": "1/2 tsp cumin seed powder",
+                    "originalName": "cumin seed powder",
+                    "amount": 0.5,
+                    "unit": "tsp",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 0.5,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        },
+                        "metric": {
+                            "amount": 0.5,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        }
+                    }
+                },
+                {
+                    "id": 11165,
+                    "aisle": "Produce",
+                    "image": "cilantro.png",
+                    "consistency": "SOLID",
+                    "name": "coriander",
+                    "nameClean": "cilantro",
+                    "original": "1 bunch of fresh coriander",
+                    "originalName": "fresh coriander",
+                    "amount": 1,
+                    "unit": "bunch",
+                    "meta": [
+                        "fresh"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "bunch",
+                            "unitLong": "bunch"
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "bunch",
+                            "unitLong": "bunch"
+                        }
+                    }
+                },
+                {
+                    "id": 11109,
+                    "aisle": "Produce",
+                    "image": "cabbage.jpg",
+                    "consistency": "SOLID",
+                    "name": "cabbage",
+                    "nameClean": "cabbage",
+                    "original": "3/4 cup green cabbage",
+                    "originalName": "green cabbage",
+                    "amount": 0.75,
+                    "unit": "cup",
+                    "meta": [
+                        "green"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 0.75,
+                            "unitShort": "cups",
+                            "unitLong": "cups"
+                        },
+                        "metric": {
+                            "amount": 52.5,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 1002013,
+                    "aisle": "Spices and Seasonings",
+                    "image": "ground-coriander.jpg",
+                    "consistency": "SOLID",
+                    "name": "ground coriander",
+                    "nameClean": "ground coriander",
+                    "original": "1/2 tsp ground coriander",
+                    "originalName": "ground coriander",
+                    "amount": 0.5,
+                    "unit": "tsp",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 0.5,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        },
+                        "metric": {
+                            "amount": 0.5,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        }
+                    }
+                },
+                {
+                    "id": 9160,
+                    "aisle": "Produce",
+                    "image": "lime-juice.png",
+                    "consistency": "LIQUID",
+                    "name": "juice of lime",
+                    "nameClean": "lime juice",
+                    "original": "1 Juice of lime",
+                    "originalName": "Juice of lime",
+                    "amount": 1,
+                    "unit": "",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "",
+                            "unitLong": ""
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "",
+                            "unitLong": ""
+                        }
+                    }
+                },
+                {
+                    "id": 4053,
+                    "aisle": "Oil, Vinegar, Salad Dressing",
+                    "image": "olive-oil.jpg",
+                    "consistency": "LIQUID",
+                    "name": "olive oil",
+                    "nameClean": "olive oil",
+                    "original": "1 teaspoon of olive oil",
+                    "originalName": "olive oil",
+                    "amount": 1,
+                    "unit": "teaspoon",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "tsp",
+                            "unitLong": "teaspoon"
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "tsp",
+                            "unitLong": "teaspoon"
+                        }
+                    }
+                },
+                {
+                    "id": 11112,
+                    "aisle": "Produce",
+                    "image": "red-cabbage.png",
+                    "consistency": "SOLID",
+                    "name": "cabbage",
+                    "nameClean": "red cabbage",
+                    "original": "3/4 cup red cabbage",
+                    "originalName": "red cabbage",
+                    "amount": 0.75,
+                    "unit": "cup",
+                    "meta": [
+                        "red"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 0.75,
+                            "unitShort": "cups",
+                            "unitLong": "cups"
+                        },
+                        "metric": {
+                            "amount": 66.75,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 12036,
+                    "aisle": "Savory Snacks",
+                    "image": "sunflower-seeds.jpg",
+                    "consistency": "SOLID",
+                    "name": "sunflower seeds",
+                    "nameClean": "sunflower seeds",
+                    "original": "2 teaspoons of sunflower seeds",
+                    "originalName": "sunflower seeds",
+                    "amount": 2,
+                    "unit": "teaspoons",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        }
+                    }
+                }
+            ],
+            "glutenFree": true,
+            "healthScore": 100,
+            "license": "CC BY 3.0",
+            "pricePerServing": 139.83,
+            "readyInMinutes": 25,
+            "servings": 1,
+            "sourceName": "Foodista",
+            "sourceUrl": "https://www.foodista.com/recipe/MB7NYM87/carrot-and-cabbage-salad-with-coriandercumin-dry-rub",
+            "spoonacularScore": 96.25384521484375,
+            "spoonacularSourceUrl": "https://spoonacular.com/carrot-and-cabbage-salad-with-coriandercumin-dry-rub-637162",
+            "summary": "If you want to add more <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> recipes to your repertoire, Carrot and Cabbage Salad With Coriander+cumin Dry Rub might be a recipe you should try. This recipe serves 1. One portion of this dish contains about <b>6g of protein</b>, <b>10g of fat</b>, and a total of <b>222 calories</b>. For <b>$1.4 per serving</b>, this recipe <b>covers 27%</b> of your daily requirements of vitamins and minerals. 4 people have made this recipe and would make it again. Head to the store and pick up sunflower seeds, cumin seed powder, juice of lime, and a few other things to make it today. It works well as an affordable hor d'oeuvre. From preparation to the plate, this recipe takes roughly <b>25 minutes</b>. It is brought to you by Foodista. Overall, this recipe earns a <b>super spoonacular score of 96%</b>. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/carrot-and-cabbage-salad-with-coriandercumin-dry-rub-1230725\">Carrot and Cabbage Salad With Coriander+cumin Dry Rub</a>, <a href=\"https://spoonacular.com/recipes/carrot-and-cabbage-salad-with-coriandercumin-dry-rub-1350633\">Carrot and Cabbage Salad With Coriander+cumin Dry Rub</a>, and <a href=\"https://spoonacular.com/recipes/carrot-and-cabbage-salad-with-coriandercumin-dry-rub-1253443\">Carrot and Cabbage Salad With Coriander+cumin Dry Rub</a>.",
+            "sustainable": false,
+            "vegan": true,
+            "vegetarian": true,
+            "veryHealthy": true,
+            "veryPopular": false,
+            "id": "637162"
+        },
+        {
+            "title": "Jade Buddha Salmon Tartare",
+            "image": "https://img.spoonacular.com/recipes/648320-556x370.jpg",
+            "imageType": "jpg",
+            "dishTypes": [
+                "lunch",
+                "main course",
+                "main dish",
+                "dinner"
+            ],
+            "detailsFetched": true,
+            "createdAt": "2024-10-17T15:50:21.754Z",
+            "updatedAt": "2024-10-21T07:04:37.174Z",
+            "cheap": false,
+            "dairyFree": true,
+            "extendedIngredients": [
+                {
+                    "id": 15076,
+                    "aisle": "Seafood",
+                    "image": "salmon.png",
+                    "consistency": "SOLID",
+                    "name": "salmon",
+                    "nameClean": "salmon",
+                    "original": "12 ounces salmon, finely diced",
+                    "originalName": "salmon, finely diced",
+                    "amount": 12,
+                    "unit": "ounces",
+                    "meta": [
+                        "diced",
+                        "finely"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 12,
+                            "unitShort": "oz",
+                            "unitLong": "ounces"
+                        },
+                        "metric": {
+                            "amount": 340.194,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 11291,
+                    "aisle": "Produce",
+                    "image": "spring-onions.jpg",
+                    "consistency": "SOLID",
+                    "name": "green onion",
+                    "nameClean": "spring onions",
+                    "original": "2 tablespoons chopped green onion",
+                    "originalName": "chopped green onion",
+                    "amount": 2,
+                    "unit": "tablespoons",
+                    "meta": [
+                        "chopped"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        }
+                    }
+                },
+                {
+                    "id": 11156,
+                    "aisle": "Produce",
+                    "image": "fresh-chives.jpg",
+                    "consistency": "SOLID",
+                    "name": "chives",
+                    "nameClean": "chives",
+                    "original": "1 tablespoon chopped chives",
+                    "originalName": "chopped chives",
+                    "amount": 1,
+                    "unit": "tablespoon",
+                    "meta": [
+                        "chopped"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "Tbsp",
+                            "unitLong": "Tbsp"
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "Tbsp",
+                            "unitLong": "Tbsp"
+                        }
+                    }
+                },
+                {
+                    "id": 11165,
+                    "aisle": "Produce",
+                    "image": "cilantro.png",
+                    "consistency": "SOLID",
+                    "name": "cilantro",
+                    "nameClean": "cilantro",
+                    "original": "1 tablespoon cilantro",
+                    "originalName": "cilantro",
+                    "amount": 1,
+                    "unit": "tablespoon",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "Tbsp",
+                            "unitLong": "Tbsp"
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "Tbsp",
+                            "unitLong": "Tbsp"
+                        }
+                    }
+                },
+                {
+                    "id": 1012044,
+                    "aisle": "Spices and Seasonings",
+                    "image": "lemon-basil.jpg",
+                    "consistency": "SOLID",
+                    "name": "thai basil",
+                    "nameClean": "thai basil",
+                    "original": "1 tablespoon thai basil",
+                    "originalName": "thai basil",
+                    "amount": 1,
+                    "unit": "tablespoon",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "Tbsp",
+                            "unitLong": "Tbsp"
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "Tbsp",
+                            "unitLong": "Tbsp"
+                        }
+                    }
+                },
+                {
+                    "id": 11216,
+                    "aisle": "Produce",
+                    "image": "ginger.png",
+                    "consistency": "SOLID",
+                    "name": "ginger",
+                    "nameClean": "ginger",
+                    "original": "2 teaspoons grated ginger",
+                    "originalName": "grated ginger",
+                    "amount": 2,
+                    "unit": "teaspoons",
+                    "meta": [
+                        "grated"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        }
+                    }
+                },
+                {
+                    "id": 1009159,
+                    "aisle": "Produce",
+                    "image": "zest-lime.jpg",
+                    "consistency": "SOLID",
+                    "name": "lime zest",
+                    "nameClean": "lime peel",
+                    "original": "zest of 1 lime",
+                    "originalName": "zest of lime",
+                    "amount": 1,
+                    "unit": "",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "",
+                            "unitLong": ""
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "",
+                            "unitLong": ""
+                        }
+                    }
+                },
+                {
+                    "id": 9160,
+                    "aisle": "Produce",
+                    "image": "lime-juice.png",
+                    "consistency": "LIQUID",
+                    "name": "lime juice",
+                    "nameClean": "lime juice",
+                    "original": "good tablespoon of lime juice",
+                    "originalName": "good of lime juice",
+                    "amount": 1,
+                    "unit": "tablespoon",
+                    "meta": [
+                        "good"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "Tbsp",
+                            "unitLong": "Tbsp"
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "Tbsp",
+                            "unitLong": "Tbsp"
+                        }
+                    }
+                },
+                {
+                    "id": 1022053,
+                    "aisle": "Ethnic Foods",
+                    "image": "rice-vinegar.png",
+                    "consistency": "LIQUID",
+                    "name": "rice vinegar",
+                    "nameClean": "rice vinegar",
+                    "original": "1 teaspoon champagne or rice vinegar",
+                    "originalName": "champagne or rice vinegar",
+                    "amount": 1,
+                    "unit": "teaspoon",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "tsp",
+                            "unitLong": "teaspoon"
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "tsp",
+                            "unitLong": "teaspoon"
+                        }
+                    }
+                },
+                {
+                    "id": 10011819,
+                    "aisle": "Ethnic Foods",
+                    "image": "habanero-pepper.jpg",
+                    "consistency": "SOLID",
+                    "name": "habanero sauce and chile",
+                    "nameClean": "habanero chili",
+                    "original": "habanero sauce and minced green chile",
+                    "originalName": "habanero sauce and minced green chile",
+                    "amount": 2,
+                    "unit": "servings",
+                    "meta": [
+                        "green",
+                        "minced"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        }
+                    }
+                },
+                {
+                    "id": 1102047,
+                    "aisle": "Spices and Seasonings",
+                    "image": "salt-and-pepper.jpg",
+                    "consistency": "SOLID",
+                    "name": "salt and pepper",
+                    "nameClean": "salt and pepper",
+                    "original": "salt and pepper",
+                    "originalName": "salt and pepper",
+                    "amount": 2,
+                    "unit": "servings",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        }
+                    }
+                },
+                {
+                    "id": 4053,
+                    "aisle": "Oil, Vinegar, Salad Dressing",
+                    "image": "olive-oil.jpg",
+                    "consistency": "LIQUID",
+                    "name": "olive oil to coat",
+                    "nameClean": "olive oil",
+                    "original": "olive oil to coat",
+                    "originalName": "olive oil to coat",
+                    "amount": 2,
+                    "unit": "servings",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "servings",
+                            "unitLong": "servings"
+                        }
+                    }
+                }
+            ],
+            "glutenFree": true,
+            "healthScore": 89,
+            "pricePerServing": 696.04,
+            "readyInMinutes": 45,
+            "servings": 2,
+            "sourceName": "foodista.com",
+            "sourceUrl": "https://www.foodista.com/recipe/7J3VXBX3/jade-buddha-salmon-tartare",
+            "spoonacularScore": 97.6240463256836,
+            "spoonacularSourceUrl": "https://spoonacular.com/jade-buddha-salmon-tartare-648320",
+            "summary": "Need a <b>gluten free, dairy free, paleolithic, and primal main course</b>? Jade Buddha Salmon Tartare could be an outstanding recipe to try. This recipe serves 2 and costs $6.96 per serving. One serving contains <b>382 calories</b>, <b>34g of protein</b>, and <b>25g of fat</b>. If you have olive oil to coat, green onion, salt and pepper, and a few other ingredients on hand, you can make it. 28 people were glad they tried this recipe. It is brought to you by Foodista. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. Overall, this recipe earns an <b>awesome spoonacular score of 97%</b>. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/salmon-tartare-40385\">Salmon Tartare</a>, <a href=\"https://spoonacular.com/recipes/salmon-tartare-1281973\">Salmon Tartare</a>, and <a href=\"https://spoonacular.com/recipes/salmon-tartare-40377\">Salmon Tartare</a>.",
+            "sustainable": false,
+            "vegan": false,
+            "vegetarian": false,
+            "veryHealthy": true,
+            "veryPopular": false,
+            "id": "648320"
+        },
+        {
+            "title": "Corn Avocado Salsa",
+            "image": "https://img.spoonacular.com/recipes/640062-556x370.jpg",
+            "imageType": "jpg",
+            "createdAt": "2024-10-17T12:45:06.354Z",
+            "updatedAt": "2024-10-17T15:17:11.390Z",
+            "cheap": false,
+            "dairyFree": true,
+            "detailsFetched": true,
+            "dishTypes": [
+                "antipasti",
+                "condiment",
+                "starter",
+                "snack",
+                "appetizer",
+                "dip",
+                "antipasto",
+                "hor d'oeuvre",
+                "spread"
+            ],
+            "extendedIngredients": [
+                {
+                    "id": 9037,
+                    "aisle": "Produce",
+                    "image": "avocado.jpg",
+                    "consistency": "SOLID",
+                    "name": "avocado",
+                    "nameClean": "avocado",
+                    "original": "1 Avocado",
+                    "originalName": "Avocado",
+                    "amount": 1,
+                    "unit": "",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "",
+                            "unitLong": ""
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "",
+                            "unitLong": ""
+                        }
+                    }
+                },
+                {
+                    "id": 2069,
+                    "aisle": "Oil, Vinegar, Salad Dressing",
+                    "image": "balsamic-vinegar.jpg",
+                    "consistency": "LIQUID",
+                    "name": "balsamic vinegar",
+                    "nameClean": "balsamic vinegar",
+                    "original": "1 teaspoon Balsamic vinegar",
+                    "originalName": "Balsamic vinegar",
+                    "amount": 1,
+                    "unit": "teaspoon",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "tsp",
+                            "unitLong": "teaspoon"
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "tsp",
+                            "unitLong": "teaspoon"
+                        }
+                    }
+                },
+                {
+                    "id": 1002014,
+                    "aisle": "Spices and Seasonings",
+                    "image": "ground-cumin.jpg",
+                    "consistency": "SOLID",
+                    "name": "cumin",
+                    "nameClean": "cumin",
+                    "original": "1 teaspoon Cumin",
+                    "originalName": "Cumin",
+                    "amount": 1,
+                    "unit": "teaspoon",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "tsp",
+                            "unitLong": "teaspoon"
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "tsp",
+                            "unitLong": "teaspoon"
+                        }
+                    }
+                },
+                {
+                    "id": 11913,
+                    "aisle": "Frozen",
+                    "image": "corn.png",
+                    "consistency": "SOLID",
+                    "name": "corn",
+                    "nameClean": "frozen corn",
+                    "original": "3/4 cup Corn, freshly hulled (You can also use frozen corn, thawed)",
+                    "originalName": "Corn, freshly hulled (You can also use frozen corn, thawed)",
+                    "amount": 0.75,
+                    "unit": "cup",
+                    "meta": [
+                        "frozen",
+                        "hulled",
+                        "thawed",
+                        "canned",
+                        "(You can also use corn, )"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 0.75,
+                            "unitShort": "cups",
+                            "unitLong": "cups"
+                        },
+                        "metric": {
+                            "amount": 123.75,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 11215,
+                    "aisle": "Produce",
+                    "image": "garlic.png",
+                    "consistency": "SOLID",
+                    "name": "garlic",
+                    "nameClean": "garlic",
+                    "original": "1 clove garlic",
+                    "originalName": "garlic",
+                    "amount": 1,
+                    "unit": "clove",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "clove",
+                            "unitLong": "clove"
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "clove",
+                            "unitLong": "clove"
+                        }
+                    }
+                },
+                {
+                    "id": 11821,
+                    "aisle": "Produce",
+                    "image": "red-pepper.jpg",
+                    "consistency": "SOLID",
+                    "name": "bell pepper",
+                    "nameClean": "red pepper",
+                    "original": "1/2 medium Red Pepper",
+                    "originalName": "Red Pepper",
+                    "amount": 0.5,
+                    "unit": "medium",
+                    "meta": [
+                        "red"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 0.5,
+                            "unitShort": "medium",
+                            "unitLong": "mediums"
+                        },
+                        "metric": {
+                            "amount": 0.5,
+                            "unitShort": "medium",
+                            "unitLong": "mediums"
+                        }
+                    }
+                }
+            ],
+            "glutenFree": true,
+            "healthScore": 71,
+            "license": "CC BY 3.0",
+            "pricePerServing": 130.73,
+            "readyInMinutes": 25,
+            "servings": 2,
+            "sourceName": "Foodista",
+            "sourceUrl": "https://www.foodista.com/recipe/BDRS2JZG/corn-avocado-salsa",
+            "spoonacularScore": 97.73944091796875,
+            "spoonacularSourceUrl": "https://spoonacular.com/corn-avocado-salsa-640062",
+            "summary": "Corn Avocado Salsa might be just the hor d'oeuvre you are searching for. For <b>$1.31 per serving</b>, this recipe <b>covers 15%</b> of your daily requirements of vitamins and minerals. One portion of this dish contains roughly <b>5g of protein</b>, <b>16g of fat</b>, and a total of <b>237 calories</b>. This recipe serves 2. 44 people have made this recipe and would make it again. This recipe from Foodista requires avocado, balsamic vinegar, cumin, and garlic. A few people really liked this Mexican dish. It is a good option if you're following a <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> diet. From preparation to the plate, this recipe takes around <b>25 minutes</b>. With a spoonacular <b>score of 97%</b>, this dish is spectacular. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/avocado-corn-salsa-1329607\">Avocado Corn Salsa</a>, <a href=\"https://spoonacular.com/recipes/avocado-corn-salsa-173978\">Avocado-Corn Salsa</a>, and <a href=\"https://spoonacular.com/recipes/avocado-corn-salsa-1305913\">Avocado-Corn Salsa</a>.",
+            "sustainable": false,
+            "vegan": true,
+            "vegetarian": true,
+            "veryHealthy": true,
+            "veryPopular": false,
+            "id": "640062"
+        },
+        {
+            "title": "Finger Foods: Frittata Muffins #incredibleEGG",
+            "image": "https://img.spoonacular.com/recipes/716432-556x370.jpg",
+            "imageType": "jpg",
+            "createdAt": "2024-10-17T12:45:06.354Z",
+            "updatedAt": "2024-10-17T15:20:13.018Z",
+            "cheap": false,
+            "dairyFree": false,
+            "detailsFetched": true,
+            "dishTypes": [
+                "morning meal",
+                "brunch",
+                "breakfast"
+            ],
+            "extendedIngredients": [
+                {
+                    "id": 11090,
+                    "aisle": "Produce",
+                    "image": "broccoli.jpg",
+                    "consistency": "SOLID",
+                    "name": "broccoli",
+                    "nameClean": "broccoli",
+                    "original": "3/4 cup chopped, cooked broccoli",
+                    "originalName": "chopped, cooked broccoli",
+                    "amount": 0.75,
+                    "unit": "cup",
+                    "meta": [
+                        "cooked",
+                        "chopped"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 0.75,
+                            "unitShort": "cups",
+                            "unitLong": "cups"
+                        },
+                        "metric": {
+                            "amount": 66,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 11156,
+                    "aisle": "Produce",
+                    "image": "fresh-chives.jpg",
+                    "consistency": "SOLID",
+                    "name": "chives",
+                    "nameClean": "chives",
+                    "original": "2 T chopped chives",
+                    "originalName": "chopped chives",
+                    "amount": 2,
+                    "unit": "T",
+                    "meta": [
+                        "chopped"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 2,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        },
+                        "metric": {
+                            "amount": 2,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        }
+                    }
+                },
+                {
+                    "id": 1011077,
+                    "aisle": "Milk, Eggs, Other Dairy",
+                    "image": "milk.png",
+                    "consistency": "LIQUID",
+                    "name": "t cream",
+                    "nameClean": "whole milk",
+                    "original": "1 + 2 T cream or whole milk",
+                    "originalName": "2 T cream or whole milk",
+                    "amount": 1,
+                    "unit": "",
+                    "meta": [
+                        "whole"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "",
+                            "unitLong": ""
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "",
+                            "unitLong": ""
+                        }
+                    }
+                },
+                {
+                    "id": 1123,
+                    "aisle": "Milk, Eggs, Other Dairy",
+                    "image": "egg.png",
+                    "consistency": "SOLID",
+                    "name": "eggs",
+                    "nameClean": "egg",
+                    "original": "6 eggs",
+                    "originalName": "eggs",
+                    "amount": 6,
+                    "unit": "",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 6,
+                            "unitShort": "",
+                            "unitLong": ""
+                        },
+                        "metric": {
+                            "amount": 6,
+                            "unitShort": "",
+                            "unitLong": ""
+                        }
+                    }
+                },
+                {
+                    "id": 10011821,
+                    "aisle": "Produce",
+                    "image": "bell-pepper-orange.png",
+                    "consistency": "SOLID",
+                    "name": "orange pepper",
+                    "nameClean": "orange pepper",
+                    "original": "1/3 cup minced orange pepper",
+                    "originalName": "minced orange pepper",
+                    "amount": 0.33333334,
+                    "unit": "cup",
+                    "meta": [
+                        "minced"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 0.33333334,
+                            "unitShort": "cups",
+                            "unitLong": "cups"
+                        },
+                        "metric": {
+                            "amount": 49.667,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 1102047,
+                    "aisle": "Spices and Seasonings",
+                    "image": "salt-and-pepper.jpg",
+                    "consistency": "SOLID",
+                    "name": "salt and pepper",
+                    "nameClean": "salt and pepper",
+                    "original": "salt and pepper",
+                    "originalName": "salt and pepper",
+                    "amount": 1,
+                    "unit": "serving",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1,
+                            "unitShort": "serving",
+                            "unitLong": "serving"
+                        },
+                        "metric": {
+                            "amount": 1,
+                            "unitShort": "serving",
+                            "unitLong": "serving"
+                        }
+                    }
+                },
+                {
+                    "id": 1001009,
+                    "aisle": "Cheese",
+                    "image": "shredded-cheddar.jpg",
+                    "consistency": "SOLID",
+                    "name": "cheddar cheese",
+                    "nameClean": "shredded cheddar cheese",
+                    "original": "1/2 cup shredded cheddar cheese",
+                    "originalName": "shredded cheddar cheese",
+                    "amount": 0.5,
+                    "unit": "cup",
+                    "meta": [
+                        "shredded"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 0.5,
+                            "unitShort": "cups",
+                            "unitLong": "cups"
+                        },
+                        "metric": {
+                            "amount": 56.5,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 11529,
+                    "aisle": "Produce",
+                    "image": "tomato.png",
+                    "consistency": "SOLID",
+                    "name": "tomato",
+                    "nameClean": "tomato",
+                    "original": "1/3 cup seeded, chopped tomato",
+                    "originalName": "seeded, chopped tomato",
+                    "amount": 0.33333334,
+                    "unit": "cup",
+                    "meta": [
+                        "seeded",
+                        "chopped"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 0.33333334,
+                            "unitShort": "cups",
+                            "unitLong": "cups"
+                        },
+                        "metric": {
+                            "amount": 49.667,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                }
+            ],
+            "glutenFree": true,
+            "healthScore": 49,
+            "pricePerServing": 295.92,
+            "readyInMinutes": 45,
+            "servings": 1,
+            "sourceName": "blogspot.com",
+            "sourceUrl": "https://fullbellysisters.blogspot.com/2014/05/finger-foods-frittata-muffins.html",
+            "spoonacularScore": 97.61192321777344,
+            "spoonacularSourceUrl": "https://spoonacular.com/finger-foods-frittata-muffins-716432",
+            "summary": "Finger Foods: Frittata Muffins might be a good recipe to expand your breakfast repertoire. This recipe makes 1 servings with <b>655 calories</b>, <b>50g of protein</b>, and <b>45g of fat</b> each. For <b>$2.96 per serving</b>, this recipe <b>covers 47%</b> of your daily requirements of vitamins and minerals. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. Plenty of people made this recipe, and 601 would say it hit the spot. If you have salt and pepper, orange pepper, t cream, and a few other ingredients on hand, you can make it. It is a good option if you're following a <b>gluten free, lacto ovo vegetarian, primal, and ketogenic</b> diet. It is brought to you by fullbellysisters.blogspot.com. Overall, this recipe earns an <b>amazing spoonacular score of 97%</b>. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/finger-foods-frittata-muffins-1369183\">Finger Foods: Frittata Muffins</a>, <a href=\"https://spoonacular.com/recipes/38-power-foods-skinny-kiwifruit-muffins-524893\">{38 Power Foods} Skinny Kiwifruit Muffins</a>, and <a href=\"https://spoonacular.com/recipes/38-power-foods-skinny-broccoli-cheese-muffins-525064\">{38 Power Foods} Skinny Broccoli Cheese Muffins</a>.",
+            "sustainable": false,
+            "vegan": false,
+            "vegetarian": true,
+            "veryHealthy": false,
+            "veryPopular": true,
+            "id": "716432"
+        }
+    ]
+}
