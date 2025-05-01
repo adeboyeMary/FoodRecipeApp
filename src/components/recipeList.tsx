@@ -49,8 +49,8 @@ const RecipesList = ({filteredRecipes}: RecipeListProps) => {
                         <div>
                             <div className="flex gap-1 justify-between">
                                 <p className="font-bold text-[15px] lg:text-[15px] italic mt-2 ">{recipe.title} </p>
-                                <button onClick={() => addToFavoriteHandler(recipe.id)} >
-                                    <Star color='#005f73' 
+                                <button onClick={() => addToFavoriteHandler(recipe.id)} className="" >
+                                    <Star color='#005f73' size={18}
                                     className={ isFavorite ? 'fill-[#005f73]' : 'fill-none'}  />
                                 </button> 
                             </div>
