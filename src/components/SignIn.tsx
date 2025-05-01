@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import { Form } from "react-router-dom";
 import Input from "../components/Input";
 import Button from "../components/Button";
 import { useDispatch, useSelector } from "react-redux";
@@ -10,11 +12,12 @@ import { setUser } from "../store/authSlice";
 const SignIn = () => {
     const dispatch = useDispatch<AppDispatch>();
     const {user, loading, error} = useSelector((state: RootState) => state.auth);
+    const [enteredPassword, setEnteredPassword] = useState<string>('');
 
 
     const sigInFormSubmitHandler = async(event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        dispatch(SignInThunk(user.username, user.password));
+        dispatch(SignInThunk( user.username, enteredPassword ));
     };
     
 
@@ -37,8 +40,8 @@ const SignIn = () => {
                 <label className={error ? `text-red-600` : `text-black font-bold`}>Password</label> 
                 <Input 
                     type="password"
-                    value={user.password}
-                    onChange={(e)=> dispatch(setUser({...user, password: e.target.value}))}
+                    value={enteredPassword}
+                    onChange={(e)=> setEnteredPassword(e.target.value)}
                     placeholder="minimum of 8, uppercase, number, and character"
                     className={error ? `outline-red-400` : `outline-none`}
                 />

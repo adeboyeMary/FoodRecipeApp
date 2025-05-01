@@ -38,6 +38,6 @@ const recipesSlice = createSlice({
 });
 
 
-export const { fetchRecipesRequest, fetchRecipesSuccess, fetchRecipesFailure,filterRecipes, resetFilter } = recipesSlice.actions;
+export const { fetchRecipesRequest, fetchRecipesSuccess, fetchRecipesFailure, filterRecipes, resetFilter } = recipesSlice.actions;
 
 export default recipesSlice;

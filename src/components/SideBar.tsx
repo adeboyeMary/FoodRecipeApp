@@ -13,11 +13,10 @@ const SideBar = ( {onCategoryClick, onReset}: SidebarProps) => {
     };
 
     return (
-        <div className="w-[14%] md:w-[100%] lg:w-[100%] col-span-1 m:bg-[#D9D9D9] lg:bg-[#D9D9D9] 
-        md:rounded-lg lg:rounded-lg lg:border-solid 
-        lg:border-[1px] lg:border-[#AEAEAE] lg:shadow-2xl">
+        <div className="w-[14%] md:w-[100%] lg:w-[100%] col-span-1 m:bg-[#D9D9D9] lg:bg-[#D9D9D9] md:rounded-lg 
+        lg:rounded-lg lg:border-solid lg:h-[29rem] xl:h-[30rem] lg:border-[1px] lg:border-[#AEAEAE] lg:shadow-2xl">
             <div className="hidden md:hidden lg:block">
-                <p className="p-4 text-2xl font-bold">Recipes:</p>
+                <p className="p-4 text-xl font-bold">Recipes:</p>
                 <hr className="border-solid border-[1px] border-[#AEAEAE]" />
                 
                 <SideBarForm onCategoryClick={onCategoryClick} onReset={onReset} />
@@ -27,7 +26,7 @@ const SideBar = ( {onCategoryClick, onReset}: SidebarProps) => {
                 <Menu />
             </button>
             
-            <div className={`md:block lg:hidden fixed top-0 left-0 bg-[#D9D9D9] w-[60%] h-[70vh] z-50 
+            <div className={`md:block lg:hidden fixed top-0 left-0 bg-[#D9D9D9] w-[60%] md:w-[30%] h-[70vh] z-50 
                 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform`}>
                     <button onClick={clickHandler} className='text-5xl text-red-600 float-end pr-3 pb-3'>
                         &times;

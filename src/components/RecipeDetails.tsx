@@ -1,11 +1,5 @@
 import { Recipe } from "../store/types";
-// type Recipe = {
-//     id: number,
-//     title: string,
-//     image: string,
-//     summary: string,
-//     extendedIngredients: string[];
-// };
+
 
 const stripHtmlTags = (html: string) => {
     return html.replace(/<[^>]*>/g, ''); // Remove everything between angle brackets
@@ -20,12 +14,11 @@ const RecipeDetails = ({recipes}: RecipeDetailsProps) => {
     if (!recipes || recipes.length === 0) {
         return <p>No recipe details found.</p>
     }
-
     
     return (
         <ul className="p-4">
             {recipes.map((recipe) => (
-                <li key={recipe.id}>
+                <li key={recipe.title}>
                     <div className="w-[99%] m-auto lg:w-[88%] lg:m-0 ">
                         <div className="flex flex-col lg:flex-row " >
                             <div className="lg:w-[40%] ">
@@ -60,12 +53,13 @@ const RecipeDetails = ({recipes}: RecipeDetailsProps) => {
                         <p className="mt-[0.8rem] lg:ml-[3rem] lg:mt-[2rem] ">{stripHtmlTags(recipe.summary)} </p>
                         <div className="lg:ml-[3rem] lg:mt-[0.8rem] ">
                             <p className="font-bold text-[18px] lg:text-[18px] ">Ingredients.</p>
+                            <ul>
                             {recipe.extendedIngredients.map((ingredient) => (
                                 <li key={ingredient.id} className="list-disc ml-[2.5rem] lg:ml-[2.8rem] " >
                                     <p>{ingredient.amount}{ingredient.unit} of {ingredient.name}</p>
-                                    {/* <p>Consistency: {ingredient.consistency}</p> */}
                                 </li>
                             ))}
+                            </ul>
                         </div>
 
                     </div>

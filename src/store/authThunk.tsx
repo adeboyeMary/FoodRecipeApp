@@ -1,5 +1,6 @@
 import { AppDispatch } from ".";
 import { jwtDecode } from "jwt-decode";
+import { fetchAllFavorites } from "./recipesThunk";
 import { fetchLoginRequest, fetchLoginSuccess, fetchLoginFailure, fetchLogoutSuccess } from "./authSlice";
 
 
@@ -9,8 +10,8 @@ export const SignInThunk = (username: string, password: string) => {
 
         if (username.trim() === '' || password.length < 8){
             dispatch(fetchLoginFailure('Enter valid input!'));
+            return;
         }
-
         console.log("Attempting to sign in with:", username, password);
         try{
             const url = process.env.REACT_APP_SIGNIN_URL || '';
@@ -27,14 +28,15 @@ export const SignInThunk = (username: string, password: string) => {
            
             if(response.ok){
                 dispatch(fetchLoginSuccess(data));
+                dispatch(fetchAllFavorites());
                 localStorage.setItem('token', data.authorizationToken);
                 localStorage.setItem('refreshToken', data.refreshToken);
-                localStorage.setItem('user', JSON.stringify(data.username));
+                // localStorage.setItem('user', JSON.stringify({username: data.username}));
+                localStorage.setItem('user', (data.username));
+
 
                 console.log(localStorage.getItem('user'), '...what user is saved in local storage');
                 console.log(data, '...login successful......');
-                
-                dispatch(startTokenRefresh());
                 window.location.href = '/';     //redirect to home after successful login.
             } else{
                 if(data.message === 'User not found'){
@@ -88,9 +90,7 @@ export const SignUpThunk = (username: string, password: string) => {
         localStorage.removeItem('token');
         localStorage.removeItem('refreshToken');
         localStorage.removeItem('user');
-        console.log('logout done and dusted!');
         dispatch(fetchLogoutSuccess());
-        // window.location.href = '/';
     }
   };
 
@@ -99,9 +99,7 @@ const refreshTokenThunk = () => {
         dispatch(fetchLoginRequest());
         const state = getState();
         const refreshToken = state.auth.refreshToken || localStorage.getItem('refreshToken');
-
-        // const refreshToken = localStorage.getItem('refreshToken');
-        console.log("......refreshToken....", refreshToken);
+        const user = state.auth.user || localStorage.getItem('user') || { username: '' } ;
 
         if (!refreshToken || refreshToken.length === 0) {
             console.log('No refresh token found*****');
@@ -124,10 +122,13 @@ const refreshTokenThunk = () => {
 
             if(response.ok){         
                 dispatch(fetchLoginSuccess({
-                    token: newTokenResponseData.authorizationToken, refreshToken, // keep old one or get from response if renewed
-                    user: JSON.parse(localStorage.getItem('user') || '{}'),
+                    token: newTokenResponseData.authorizationToken, // keep old one or get from response if renewed
+                    refreshToken: newTokenResponseData.refreshToken || refreshToken,
+                    user: user
                 }));
                 localStorage.setItem('token', newTokenResponseData.authorizationToken);
+                localStorage.setItem('user', (user.username));
+
                 console.log(localStorage.getItem('token'), '......new token.....');
                 console.log(newTokenResponseData.authorizationToken, '......refreshed token.....');
                console.log('......refreshed successfully!.....');
@@ -147,10 +148,15 @@ const refreshTokenThunk = () => {
     }
 };
 
-// let refreshTimeout: ReturnType<typeof setTimeout>;
+let refreshTimeout: ReturnType<typeof setTimeout>;
 
 export const startTokenRefresh = () => {
+    console.log('now in startTokenRefresh....');
     return async (dispatch: AppDispatch, getState: any) => {
+        if(refreshTimeout) {
+            clearTimeout(refreshTimeout); // Clear previous timer
+        }
+
         const state = getState();
         const token = state.auth.token || localStorage.getItem('token');
 
@@ -168,38 +174,13 @@ export const startTokenRefresh = () => {
             dispatch(refreshTokenThunk());   // Token has expired, refresh it
           
         } else {
-            setTimeout(() => {
-                dispatch(refreshTokenThunk());
-            }, timeUntilTokenExpires - 1000);   // Refresh the token a second before it expires
-        }
+            const delay = Math.max(timeUntilTokenExpires - 1000, 0);
 
-        // if (refreshTimeout) clearTimeout(refreshTimeout);
-        
-        // refreshTimeout = setTimeout(async () => {
-        //     try {
-        //       console.log('attempting token refresh...');
-        //       await dispatch(refreshTokenThunk());  //with await if this fails, it jumps to the catch block and skips the next dispatch
-      
-        //       //Only reschedule if refresh didn't throw or fail
-        //       dispatch(startTokenRefresh());
-        //     }  catch(error: any) {
-        //         console.error("Token refresh failed:", error);
-        //         dispatch(logoutThunk());
-        //         alert('Token refresh failed! Session expired. Please log in again.');
-        //     }
-        // }, 120000);  //2 minutes
+            refreshTimeout = setTimeout(() => {
+                dispatch(refreshTokenThunk());
+            }, delay );   // Refresh the token a second before it expires
+            console.log('now at the end of startTokenRefresh....');
+
+        }
     }
 };
-
-// export const refreshTokenBeforeExpiry = () => {
-//     const tokenExpiryTime = localStorage.getItem("tokenExpiry"); // You store the expiry time when you get the token
-//     const currentTime = new Date().getTime();
-
-//     const timeUntilExpiry = tokenExpiryTime - currentTime;
-
-//     if (timeUntilExpiry > 0) {
-//         setTimeout(() => {
-//             refreshToken();
-//         }, timeUntilExpiry - 1000); // Refresh the token a second before it expires
-//     }
-// };

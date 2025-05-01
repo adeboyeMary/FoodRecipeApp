@@ -30,12 +30,12 @@ const FavoritePage = () => {
             {isLoggedIn ? (<ul className="text-center grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 
             gap-5 w-[97%] m-auto">
                 {favorites.map((fav) => (
-                    <li key={fav.id}>
-                        <Link to={`/${fav.id}`}>
+                    <li key={fav.recipe.title}>
+                        <Link to={`/${fav.recipe.id}`}>
                             <div>
                                 <img src={fav.recipe.image} alt={fav.recipe.title} />
                             </div>
-                            <div>
+                            <div className="font-bold mt-[7px] text-[12px] lg:text-[18px] italic ">
                                 <p>{fav.recipe.title} </p>
                             </div>
                         </Link>

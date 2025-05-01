@@ -20,25 +20,17 @@ const RecipesList = ({filteredRecipes}: RecipeListProps) => {
     const {isLoggedIn, token} = useSelector((state: RootState) => state.auth);
     const [showAuthModal, setShowAuthModal] = useState<boolean>(false);   
 
-    // useEffect(() => {
-    //     localStorage.setItem("favorites", JSON.stringify(favorites));
-    //     console.log('....favorite updated');
-    //   }, [favorites]);
-
     const addToFavoriteHandler = (recipeId: string) => {
         if(!isLoggedIn && !token ) {
             setShowAuthModal(true);
-
         } else {
             dispatch(addRecipeToFavorite(recipeId));
-
         }
     };
 
     const closeModalHandler = () => {
         setShowAuthModal(false);
     };
-
     
     return (
         <div>
@@ -48,20 +40,21 @@ const RecipesList = ({filteredRecipes}: RecipeListProps) => {
             {filteredRecipes.map((recipe) => {
                 const isFavorite = favorites.some((fav: any) => fav.recipe.id === recipe.id);
                 return (
-                    <li key={recipe.id}>
-                        {/* <Link to={`/${recipe.id}`}> */}
+                    <li key={recipe.title}>
+                        <Link to={`/${recipe.id}`}>
                             <div>
                                 <img src={recipe.image} alt={recipe.title} />
                             </div>
-                        {/* </Link> */}
+                        </Link>
                         <div>
                             <div className="flex gap-1 justify-between">
-                                <p className="font-bold text-[16px] italic mt-2 ">{recipe.title} </p>
+                                <p className="font-bold text-[15px] lg:text-[15px] italic mt-2 ">{recipe.title} </p>
                                 <button onClick={() => addToFavoriteHandler(recipe.id)} >
-                                    <Star color='#005f73' className={isFavorite ? 'fill-[#005f73]' : 'fill-none'}  />
+                                    <Star color='#005f73' 
+                                    className={ isFavorite ? 'fill-[#005f73]' : 'fill-none'}  />
                                 </button> 
                             </div>
-                            <p className="font-bold text-[12px] italic ">Vegan: {recipe.vegan.toString() }, 
+                            <p className="font-bold text-[11px] italic ">Vegan: {recipe.vegan.toString() }, 
                                 Vegetarian: {recipe.vegetarian.toString() }, Gluten free: {recipe.glutenFree.toString()}, 
                                 Diary free: {recipe.dairyFree.toString()}
                             </p>

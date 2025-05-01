@@ -87,7 +87,7 @@ export type ApiFavorite = {
 
 export type User = {
     username: string;
-    password: string;
+    // password: string;
     id?: string;
   }
 

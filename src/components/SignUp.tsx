@@ -5,15 +5,17 @@ import Button from "../components/Button";
 import { SignUpThunk } from "../store/authThunk";
 import { AppDispatch, RootState } from "../store";
 import { setUser } from "../store/authSlice";
+import { useState } from "react";
 
 
 const SignUp = () => {
    const dispatch = useDispatch<AppDispatch>();
    const {loading, error, user } = useSelector((state: RootState) => state.auth);
+   const [enteredPassword, setEnteredPassword] = useState<string>('');
 
     const formSubmitHandler = async(event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-       dispatch(SignUpThunk(user.username, user.password));
+       dispatch(SignUpThunk(user.username, enteredPassword));
 
     };
     
@@ -34,8 +36,8 @@ const SignUp = () => {
             <label className={error ? `text-red-600` : `text-black font-bold`}>Password</label> 
             <Input 
                 type="password"
-                value={user.password}
-                onChange={(e)=> dispatch(setUser({...user, password: e.target.value}))}
+                value={enteredPassword}
+                onChange={(e)=>  setEnteredPassword(e.target.value) }
                 placeholder="minimum of 8, uppercase, number, and character"
                 className="pl-2 outline-none py-3" 
             />

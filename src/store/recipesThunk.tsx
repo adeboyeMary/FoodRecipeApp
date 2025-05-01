@@ -114,9 +114,11 @@ export const fetchAllFavorites = () => {
                     'Authorization': `Bearer ${token}`,
                 }
             });
+            const data = await response.json();
+            console.log(data, 'fetchAllFav-data');
 
             if(response.ok) {
-                const data = await response.json();
+                // const data = await response.json();
                 dispatch(favoriteRequestSuccess(data));
                 localStorage.setItem('favorites', JSON.stringify(state.favorites));
                 console.log(data, "......///data?/////.....");

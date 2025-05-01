@@ -10,6 +10,7 @@ import FavoritePage from './pages/FavoritePage';
 import RecipeDetailsPage from './pages/RecipeDetailsPage';
 import { useDispatch, useSelector } from "react-redux";
 import { startTokenRefresh } from "./store/authThunk";
+import { fetchAllFavorites } from "./store/recipesThunk";
 import { AppDispatch, RootState } from "./store";
 
 const router = createBrowserRouter([
@@ -48,6 +49,9 @@ function App() {
   const token = localStorage.getItem('token');
   const refreshToken = localStorage.getItem('refreshToken');
   const user = localStorage.getItem('user');
+  // const user = JSON.parse(localStorage.getItem("user"));
+console.log(user, '........'); // Should show { username: "mary@gmail.com" }
+
 
 
   console.log(token,  '....App.js token check......');
@@ -56,8 +60,11 @@ function App() {
 
 
   useEffect(() => {
+    console.log(user, '....1....'); 
     if(token && refreshToken && user) {
       dispatch(startTokenRefresh());
+      dispatch(fetchAllFavorites());
+      console.log(user, '....2....'); 
     }
   }, [dispatch, token, refreshToken, user]);
 
