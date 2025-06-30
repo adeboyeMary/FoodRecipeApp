@@ -14,7 +14,7 @@ export const SignInThunk = (username: string, password: string) => {
         }
         console.log("Attempting to sign in with:", username, password);
         try{
-            const url = process.env.REACT_APP_SIGNIN_URL || '';
+            const url = `${process.env.REACT_APP_BACKEND_BASE_URL}user/login` || '';
             const response = await fetch(url, {
                 method: 'POST',
                 headers: {
@@ -31,7 +31,6 @@ export const SignInThunk = (username: string, password: string) => {
                 dispatch(fetchAllFavorites());
                 localStorage.setItem('token', data.authorizationToken);
                 localStorage.setItem('refreshToken', data.refreshToken);
-                // localStorage.setItem('user', JSON.stringify({username: data.username}));
                 localStorage.setItem('user', (data.username));
 
 
@@ -62,7 +61,7 @@ export const SignUpThunk = (username: string, password: string) => {
         }
 
         try{
-            const url = process.env.REACT_APP_SIGNUP_URL || '';
+            const url = `${process.env.REACT_APP_BACKEND_BASE_URL}user/signup` || '';
              const response = await fetch(url, {
                 method: 'POST',
                 headers: {
@@ -109,7 +108,7 @@ const refreshTokenThunk = () => {
 
         try{
             console.log('.....logic starting....');
-            const refreshTokenUrl = process.env.REACT_APP_REFRESH_TOKEN_URL || '';
+            const refreshTokenUrl = `${process.env.REACT_APP_BACKEND_BASE_URL}user/refresh-token` || '';
             const response = await fetch(refreshTokenUrl, {
                 method: 'POST',
                 headers: {

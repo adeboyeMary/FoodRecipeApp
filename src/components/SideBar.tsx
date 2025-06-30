@@ -32,6 +32,7 @@ const SideBar = ( {onCategoryClick, onReset}: SidebarProps) => {
                         &times;
                     </button>
                 <SideBarForm onCategoryClick={onCategoryClick} onReset={onReset} />
+                <p>Hiiiiiii</p>
             </div>
 
             <div onClick={clickHandler} className={`fixed top-0 left-0 w-full h-full bg-[black] 
