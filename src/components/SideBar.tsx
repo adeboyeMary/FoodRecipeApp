@@ -16,7 +16,7 @@ const SideBar = ( {onCategoryClick, onReset}: SidebarProps) => {
         <div className="w-[14%] md:w-[100%] lg:w-[100%] col-span-1 m:bg-[#D9D9D9] lg:bg-[#D9D9D9] md:rounded-lg 
         lg:rounded-lg lg:border-solid lg:h-[29rem] xl:h-[30rem] lg:border-[1px] lg:border-[#AEAEAE] lg:shadow-2xl">
             <div className="hidden md:hidden lg:block ">
-                <p className="p-4 text-xl font-bold">Recipes:</p>
+                <p className="p-4 text-xl xl:text-base font-bold">Recipes:</p>
                 <hr className="border-solid border-[1px] border-[#AEAEAE]" />
                 
                 <SideBarForm onCategoryClick={onCategoryClick} onReset={onReset} />

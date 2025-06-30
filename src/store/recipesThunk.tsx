@@ -9,7 +9,7 @@ export const getAllRecipes = () => {
         try{
             dispatch(fetchRecipesRequest());
             // const url = process.env.REACT_APP_BASE_URL || '';
-            const url = `${process.env.REACT_APP_BACKEND_BASE_URL}recipes`;
+            const url = `${process.env.REACT_APP_BACKEND_BASE_URL}/recipes`;
             const response = await fetch(url);
 
             if (response.ok){
@@ -30,7 +30,7 @@ export const getRecipeDetailsById = (recipeId: number) => {
     return async (dispatch: any) => {
         try{
             dispatch(fetchRecipesRequest());
-            const getByIdUrl =`${process.env.REACT_APP_BACKEND_BASE_URL}recipes/${recipeId}`;
+            const getByIdUrl =`${process.env.REACT_APP_BACKEND_BASE_URL}/recipes/${recipeId}`;
             const response = await fetch(getByIdUrl);
                 const data = await response.json();
 
@@ -58,7 +58,7 @@ export const addRecipeToFavorite = (recipeId: string) => {
             return;
         }
         try{
-            const addToFavoriteUrl = `${process.env.REACT_APP_BACKEND_BASE_URL}favourite/${recipeId}`;
+            const addToFavoriteUrl = `${process.env.REACT_APP_BACKEND_BASE_URL}/favourite/${recipeId}`;
             const response = await fetch(addToFavoriteUrl, {
                 method: 'POST',
                 headers: {
@@ -107,7 +107,7 @@ export const fetchAllFavorites = () => {
         }
         dispatch(fetchFavoriteRequest());
         try {
-            const getFavoriteURL = `${process.env.REACT_APP_BACKEND_BASE_URL}favourite` || "";
+            const getFavoriteURL = `${process.env.REACT_APP_BACKEND_BASE_URL}/favourite` || "";
             const response = await fetch(getFavoriteURL, {
                 method: "GET",
                 headers: {

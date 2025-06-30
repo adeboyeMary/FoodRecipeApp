@@ -44,15 +44,10 @@ const router = createBrowserRouter([
 
 function App() {
   const dispatch = useDispatch<AppDispatch>();
-  // const {isLoggedIn, token, refreshToken, user} = useSelector((state: RootState) => state.auth);
-  const error = useSelector((state: RootState) => state.auth.error);
   const token = localStorage.getItem('token');
   const refreshToken = localStorage.getItem('refreshToken');
   const user = localStorage.getItem('user');
-  // const user = JSON.parse(localStorage.getItem("user"));
 console.log(user, '........'); // Should show { username: "mary@gmail.com" }
-
-
 
   console.log(token,  '....App.js token check......');
   console.log(refreshToken,  '....App.js refreshToken check......');
@@ -72,7 +67,6 @@ console.log(user, '........'); // Should show { username: "mary@gmail.com" }
 
   return (
     <>
-    {/* {error && <p className="font-bold text-red-500 text-center">{error}</p>} */}
     <RouterProvider router={router} />
     </>
   );
