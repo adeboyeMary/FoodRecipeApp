@@ -26,7 +26,7 @@ const SideBar = ( {onCategoryClick, onReset}: SidebarProps) => {
                 <Menu />
             </button>
             
-            <div className={`md:block lg:hidden fixed top-0 left-0 bg-[#D9D9D9] w-[60%] md:w-[30%] h-[70vh] z-50 
+            <div className={`block md:block lg:hidden fixed top-0 left-0 bg-[#D9D9D9] w-[60%] md:w-[30%] h-[70vh] z-50 
                 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform`}>
                     <button onClick={clickHandler} className='text-5xl text-red-600 float-end pr-3 pb-3'>
                         &times;

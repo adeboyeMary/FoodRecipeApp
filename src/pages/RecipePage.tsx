@@ -22,17 +22,11 @@ const RecipePage = () => {
         dispatch(filterRecipes(category))
     };
 
-    if(!Array.isArray(recipes) || recipes.length === 0){
-        return <p>No recipes found.</p>
-    }
-
     return(
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-5 w-[91%] m-auto">
             <SideBar onCategoryClick={categoryClickHandler} onReset={() => dispatch(resetFilter())} />
-			{/* <SideBar /> */}
 
             <div className="col-span-1 md:col-span-1 lg:col-span-3 m-auto md:m-0 lg:m-0">
-                {}
                {loading ? (<p className="font-bold text-red-500 text-center mt-[10rem]">Loading...</p>):(
                 <RecipesList filteredRecipes={filteredRecipes.length > 0 ? filteredRecipes : recipes } />
                )}

@@ -72,7 +72,7 @@ console.log(user, '........'); // Should show { username: "mary@gmail.com" }
 
   return (
     <>
-    {error && <p className="font-bold text-red-500 text-center">{error}</p>}
+    {/* {error && <p className="font-bold text-red-500 text-center">{error}</p>} */}
     <RouterProvider router={router} />
     </>
   );

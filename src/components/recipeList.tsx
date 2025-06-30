@@ -34,7 +34,7 @@ const RecipesList = ({filteredRecipes}: RecipeListProps) => {
     
     return (
         <div>
-            {error && <p>{error} </p>}
+            {/* {error && <p>{error} </p>} */}
             <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             
             {filteredRecipes.map((recipe) => {
